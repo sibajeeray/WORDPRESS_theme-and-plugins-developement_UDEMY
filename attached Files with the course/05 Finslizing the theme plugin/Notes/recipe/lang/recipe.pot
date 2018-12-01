@@ -1,0 +1,181 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Recipe\n"
+"POT-Creation-Date: 2017-06-09 13:12-0400\n"
+"PO-Revision-Date: 2017-06-09 13:11-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/activate.php:6
+msgctxt "Context"
+msgid "You must update WordPress to use this plugin"
+msgstr ""
+
+#: includes/activate.php:46
+msgid "Recipe Author"
+msgstr ""
+
+#: includes/admin/columns.php:6
+msgid "Title"
+msgstr ""
+
+#: includes/admin/columns.php:7
+msgid "Author"
+msgstr ""
+
+#: includes/admin/columns.php:8
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/columns.php:9
+msgid "Ratings count"
+msgstr ""
+
+#: includes/admin/columns.php:10
+msgid "Average Rating"
+msgstr ""
+
+#: includes/admin/columns.php:11
+msgid "Date"
+msgstr ""
+
+#: includes/admin/create-metaboxes.php:6
+msgid "Recipe Options"
+msgstr ""
+
+#: includes/admin/options-page.php:10
+msgid "Recipe Settings"
+msgstr ""
+
+#: includes/admin/options-page.php:24
+msgid "User login required for rating recipes"
+msgstr ""
+
+#: includes/admin/options-page.php:31
+msgid "User login required for submitting recipes"
+msgstr ""
+
+#: includes/admin/options-page.php:38
+msgid "Update"
+msgstr ""
+
+#: includes/admin/origin-fields.php:6 includes/admin/origin-fields.php:26
+msgid "More Info URL"
+msgstr ""
+
+#: includes/admin/origin-fields.php:11 includes/admin/origin-fields.php:33
+msgid "A URL a user can click to learn more information about this origin."
+msgstr ""
+
+#: includes/init.php:5 includes/init.php:7
+msgid "Recipes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/init.php:6 includes/init.php:8
+msgid "Recipe"
+msgstr ""
+
+#: includes/init.php:9
+msgid "Add New"
+msgstr ""
+
+#: includes/init.php:10
+msgid "Add New Recipe"
+msgstr ""
+
+#: includes/init.php:11
+msgid "New Recipe"
+msgstr ""
+
+#: includes/init.php:12
+msgid "Edit Recipe"
+msgstr ""
+
+#: includes/init.php:13
+msgid "View Recipe"
+msgstr ""
+
+#: includes/init.php:14
+msgid "All Recipes"
+msgstr ""
+
+#: includes/init.php:15
+msgid "Search Recipes"
+msgstr ""
+
+#: includes/init.php:16
+msgid "Parent Recipes:"
+msgstr ""
+
+#: includes/init.php:17
+msgid "No recipes found."
+msgstr ""
+
+#: includes/init.php:18
+msgid "No recipes found in Trash."
+msgstr ""
+
+#: includes/init.php:23
+msgid "A custom post type for recipes."
+msgstr ""
+
+#: includes/init.php:44 process/filter-content.php:31
+msgid "Origin"
+msgstr ""
+
+#: process/filter-content.php:23
+msgid "Ingredients"
+msgstr ""
+
+#: process/filter-content.php:24
+msgid "Cooking Time"
+msgstr ""
+
+#: process/filter-content.php:25
+msgid "Utensils"
+msgstr ""
+
+#: process/filter-content.php:26
+msgid "Level"
+msgstr ""
+
+#: process/filter-content.php:27
+msgid "Meal Type"
+msgstr ""
+
+#: process/filter-content.php:28
+msgid "Rating"
+msgstr ""
+
+#: process/save-options.php:5
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A simple WordPress plugin that allows users to create recipes and rate those "
+"recipes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Udemy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://udemy.com"
+msgstr ""
