@@ -1,0 +1,48 @@
+Change in php settings
+--------------------------
+    - In php.ini
+        change the max_execution_time=30 to 500 sec which will allow our researh script to run for longer time.
+        change post_max_size=8M to 50M
+        change post_max_size=8M to 50M
+
+
+
+Create DB with collation utf8mb4_general_ci , this collation supports all most all local languages
+
+wp_config.php file contains all the core settings like DB credentials, password hash and salt and other settings.
+
+WordPress Documentation
+==========================
+    Main Page 
+    -----------
+        https://codex.wordpress.org/
+    
+    For wp-config.php
+    ------------------
+        https://codex.wordpress.org/Editing_wp-config.php
+
+
+In wp-config file, things we should modify
+--------------------------------------------
+    define('WP_DEBUG', false); We should make it true to get all the debug msgs while developing or modifing any theme or plugin. Must be false in prod env.
+
+    You can change the security or auth section. go to editing_wp-config.php page of codex site, there under security key u can find a inline key generator. generate and then copy paste those new keys.
+
+Root directory files
+-----------------------
+    These files define which file to load on which request.
+
+In wp-include folder
+---------------------
+    - Root directory files (not folders)
+        These files contains all the function definations for job according to their name. These functions are called somewhere else.
+
+wp-admin folder
+---------------
+    This is almost independent from other functionalities. It process the admin part only.
+
+
+
+
+
+
